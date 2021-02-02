@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4988dca7de7b4d1eb5bd54beb632d00a" Name="Diagram1">
+        <EntityTypeShape EntityType="RentsModel.ArchiveRent" Width="1.5" PointX="7.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentsModel.City" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentsModel.Country" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentsModel.Premis" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentsModel.Rent" Width="1.5" PointX="10.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentsModel.User" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="RentsModel.FK__ArchiveRe__Premi__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="RentsModel.FK__ArchiveRe__UserI__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="RentsModel.FK__Cities__CountryI__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="RentsModel.FK__Premises__CityId__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="RentsModel.FK__Rents__PremisesI__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="RentsModel.FK__Rents__UserId__38996AB5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
